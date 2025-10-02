@@ -4,5 +4,7 @@ iris_boxplot <- function(){
   
   ggplot(iris, aes(x = Species, y = Sepal.Length)) +
     geom_boxplot() +
-    labs(title = "Iris species by sepal length")
+    labs(title = "Iris species by sepal length") + 
+    theme_minimal()
 }
+
