@@ -6,9 +6,22 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Test 
+
+```{r}
+
+print("Hello World")
+
+```
+
+
+
 # Density plot
 
 ```{r}
+
+?source
+
 source("R/custom_density_plot.R")
 density_toothGrowth()
 ```
